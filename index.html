@@ -3,25 +3,47 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Website Sederhana - Hosting GitHub Pages</title>
+  <title>Febiana Dwi Mulyani — Portfolio Web</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="hero">
-    <div class="container">
-      <h1>Website Sederhana</h1>
-      <p>Perbandingan GitHub Pages dan hosting tradisional untuk website statis.</p>
+    <div class="container hero-content">
+      <p class="eyebrow">Halo, saya</p>
+      <h1>Febiana Dwi Mulyani</h1>
+      <p class="hero-copy">Web kreatif dan interaktif untuk perbandingan hosting statis vs tradisional, dibuat khusus untuk kamu.</p>
+      <div class="hero-actions">
+        <button class="btn primary" id="greetButton">Tampilkan Sapaan</button>
+        <button class="btn secondary" id="themeButton">Ganti Tema</button>
+      </div>
+      <p class="hero-note" id="greetMessage">Klik tombol untuk melihat sapaan spesial.</p>
     </div>
   </header>
 
   <main class="container">
-    <section class="intro">
-      <h2>Fitur Utama</h2>
-      <p>Website ini menjelaskan perbedaan dasar antara GitHub Pages dan hosting tradisional.</p>
+    <section class="profile">
+      <div class="profile-card">
+        <h2>Website Interaktif</h2>
+        <p>Gunakan website ini sebagai portofolio atau demo untuk GitHub Pages. Halaman ini sudah responsif dan punya elemen interaktif ringan.</p>
+      </div>
+      <div class="profile-card stats">
+        <div>
+          <strong>100%</strong>
+          <span>Responsif</span>
+        </div>
+        <div>
+          <strong>Statis</strong>
+          <span>GitHub Pages friendly</span>
+        </div>
+        <div>
+          <strong>Modern</strong>
+          <span>Desain bersih</span>
+        </div>
+      </div>
     </section>
 
     <section class="comparison">
-      <div class="card">
+      <div class="card card-glow">
         <h3>GitHub Pages</h3>
         <ul>
           <li>Biaya: Gratis selamanya</li>
@@ -31,7 +53,7 @@
           <li>Bandwidth: Sangat tinggi</li>
         </ul>
       </div>
-      <div class="card">
+      <div class="card card-glow">
         <h3>Hosting Tradisional</h3>
         <ul>
           <li>Biaya: Berlangganan bulanan</li>
@@ -44,16 +66,17 @@
     </section>
 
     <section class="tips">
-      <h2>Rekomendasi</h2>
+      <h2>Apa yang cocok untukmu?</h2>
       <p>
-        Gunakan GitHub Pages jika kamu membuat website statis seperti portofolio, blog statis, atau dokumentasi.
-        Pilih hosting tradisional apabila kamu membutuhkan fitur server-side, database, atau aplikasi web dinamis.
+        Pilih GitHub Pages jika kamu ingin website cepat, gratis, dan mudah dikelola. Pilih hosting tradisional jika butuh fitur backend, database, atau aplikasi web dinamis.
       </p>
     </section>
   </main>
 
   <footer class="footer">
-    <p>Website sederhana dibuat untuk demo GitHub Pages vs hosting tradisional.</p>
+    <p>&copy; 2026 Febiana Dwi Mulyani</p>
   </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
